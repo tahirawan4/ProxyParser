@@ -20,4 +20,5 @@ from parser.views import index
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^index/$', index, name='index'),
 ]
